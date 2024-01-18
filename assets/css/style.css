@@ -31,13 +31,14 @@
 
 .container{
     display: flex;
-    height: 400px;
+    
     justify-content: center;
     align-items: center;
 }
 
 .container.upper{
     background-color: var(--bool-conteiner);
+    height: 400px;
 }
 
 .rectangle{
@@ -52,6 +53,7 @@
 /*#region main*/
 .container.main{
     background-color: var(--bool-lighter);
+    height: 400px;
 }
 
 .square{
@@ -68,6 +70,36 @@
 
 .container.secondary{
     background-color: var(--bool-light);
+    height: 400px;
+}
+
+.container.big{
+    background-color: var(--bool-light);
+    height: 800px;
+}
+
+.green{
+    background-color: var(--bool-green);
+    height: 400px;
+    width: 400px;
+
+}
+
+.container.bottom{
+    background-color: var(--bool-black);
+    height: 400px;
+}
+
+.red{
+    width: 133px;
+    height: 350px;
+    background-color: var(--bool-red);
+}
+
+.bottomgreen{
+    height: 350px;
+    width: 66px;
+    background-color: var(--bool-blugreen);
 }
 
 /*#endregion main*/
@@ -83,6 +115,12 @@
     --bool-primary: #1e90ffFF;
     --bool-secondary: #ffc0cbFF;
     --bool-light: #d3d3d3FF;
+    --bool-green: #228b22FF;
+    --bool-black: #23272aFF;
+    --bool-red: #f08080FF;
+    --bool-blugreen: #20b2aaFF;
+    --bool-footergreen: #7fffd4FF;
+    --bool-pink: #fdb3bcFF;
 }
 
 /*#endregion utility*/
