@@ -104,6 +104,30 @@
 
 /*#endregion main*/
 
+.form{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bool-footergreen);
+    height: 35px;
+    width: 800px;
+    align-items: center;
+}
+.container.footer{
+    background-color: var(--bool-black);
+    height: 40px;
+}
+.button{
+    height: 20px;
+    width: 50px;
+    background-color: var(--bool-pink);
+}
+
+.logofooter{
+    height: 20px;
+    width: 50px;
+    background-color: var(--bool-pink);
+}
+
 /*#region utility*/
 
 :root{
