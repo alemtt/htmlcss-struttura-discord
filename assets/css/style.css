@@ -1,7 +1,7 @@
 /*#region common*/
 /*#endregion common*/
 *{
-    margin: auto;
+    margin: 0;
     padding: 0;
 }
 /*#region header*/
@@ -31,18 +31,46 @@
 
 .container{
     display: flex;
-    height: 90px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container.upper{
     background-color: var(--bool-conteiner);
 }
 
 .rectangle{
-    height: 60px;
-    width: 140px;
+    height: 80px;
+    width: 240px;
     background-color: var(--bool-rectangle);
 }
 
 
 /*#endregion header*/
+
+/*#region main*/
+.container.main{
+    background-color: var(--bool-lighter);
+}
+
+.square{
+    height: 200px;
+    width: 230px;
+    background-color: var(--bool-primary);
+}
+
+.written{
+    height: 200px;
+    width: 180px;
+    background-color: var(--bool-secondary);
+}
+
+.container.secondary{
+    background-color: var(--bool-light);
+}
+
+/*#endregion main*/
 
 /*#region utility*/
 
@@ -51,6 +79,10 @@
     --bool-background-menu: #daa520FF;
     --bool-conteiner: #00008bFF;
     --bool-rectangle: #ee82eeFF;
+    --bool-lighter: #ffffffFF;
+    --bool-primary: #1e90ffFF;
+    --bool-secondary: #ffc0cbFF;
+    --bool-light: #d3d3d3FF;
 }
 
 /*#endregion utility*/
