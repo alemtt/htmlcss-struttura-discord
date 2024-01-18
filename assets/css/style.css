@@ -1,14 +1,56 @@
+/*#region common*/
+/*#endregion common*/
+*{
+    margin: auto;
+    padding: 0;
+}
+/*#region header*/
 .menu{
     display: flex;
     height: 40px;
     justify-content: center;
     background-color: var(--bool-background-color);
     align-items: center;
-    
+    padding: 5px 25%;    
+}
+
+.link{
+    flex-grow: 2;
+    text-align: center;
+    background-color: var(--bool-background-menu);
+}
+
+.logo{
+    flex-grow: 1;
+    background-color: var(--bool-background-menu);
+}
+.login{
+    flex-grow: 1;
+    background-color: var(--bool-background-menu);
+}
+
+.container{
+    display: flex;
+    height: 90px;
+    background-color: var(--bool-conteiner);
+}
+
+.rectangle{
+    height: 60px;
+    width: 140px;
+    background-color: var(--bool-rectangle);
 }
 
 
+/*#endregion header*/
+
+/*#region utility*/
 
 :root{
     --bool-background-color: #add8e6FF;
+    --bool-background-menu: #daa520FF;
+    --bool-conteiner: #00008bFF;
+    --bool-rectangle: #ee82eeFF;
 }
+
+/*#endregion utility*/
