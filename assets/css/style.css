@@ -1,3 +1,14 @@
-body{
-    background-color: green;
+.menu{
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    background-color: var(--bool-background-color);
+    align-items: center;
+    
+}
+
+
+
+:root{
+    --bool-background-color: #add8e6FF;
 }
