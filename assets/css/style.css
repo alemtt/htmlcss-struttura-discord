@@ -1,9 +1,36 @@
 /*#region common*/
-/*#endregion common*/
 *{
     margin: 0;
     padding: 0;
 }
+/*#endregion common*/
+
+/*#region utility*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:root{
+    --bool-background-color: #add8e6FF;
+    --bool-background-menu: #daa520FF;
+    --bool-conteiner: #00008bFF;
+    --bool-rectangle: #ee82eeFF;
+    --bool-lighter: #ffffffFF;
+    --bool-primary: #1e90ffFF;
+    --bool-secondary: #ffc0cbFF;
+    --bool-light: #d3d3d3FF;
+    --bool-green: #228b22FF;
+    --bool-black: #23272aFF;
+    --bool-red: #f08080FF;
+    --bool-blugreen: #20b2aaFF;
+    --bool-footergreen: #7fffd4FF;
+    --bool-pink: #fdb3bcFF;
+}
+
+/*#endregion utility*/
+
 /*#region header*/
 .menu{
     display: flex;
@@ -17,26 +44,21 @@
 .link{
     text-align: center;
     background-color: var(--bool-background-menu);
-    flex-grow: 3;
     border: 1px dashed var(--bool-black);
+    width: 200px;
 }
 
 .logo{
-    flex-grow: 1;
     background-color: var(--bool-background-menu);
     border: 1px dashed var(--bool-black);
+    width: 100px;
 }
 .login{
-    flex-grow: 1;
     background-color: var(--bool-background-menu);
     border: 1px dashed var(--bool-black);
+    width: 100px;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .container.upper{
     background-color: var(--bool-conteiner);
@@ -61,7 +83,7 @@
 
 .square{
     height: 200px;
-    width: 230px;
+    width: 220px;
     background-color: var(--bool-primary);
     border: 1px dashed var(--bool-black);
 }
@@ -80,7 +102,7 @@
 
 .container.big{
     background-color: var(--bool-light);
-    height: 500px;
+    height: 450px;
 }
 
 .green{
@@ -92,7 +114,7 @@
 
 .container.bottom{
     background-color: var(--bool-black);
-    height: 250px;
+    height: 210px;
 }
 
 .red{
@@ -106,53 +128,42 @@
     height: 200px;
     width: 66px;
     background-color: var(--bool-blugreen);
+    border: 1px dashed var(--bool-lighter);
+}
+
+.container.box{
+    border: 1px dashed var(--bool-black);
 }
 
 /*#endregion main*/
+
+
+
+/*#region footer*/
 
 .form{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: var(--bool-footergreen);
-    height: 35px;
-    width: 800px;
+    height: 43px;
+    width: 400px;
 }
+
 .container.footer{
     background-color: var(--bool-black);
-    height: 40px;
+    height: 55px;
+    border-top: 1px solid var(--bool-lighter);
+    align-items:end;
 }
 .button{
     height: 20px;
     width: 50px;
     background-color: var(--bool-pink);
     border: 1px dashed var(--bool-black);
+    text-align: center;
 }
 
-.logofooter{
-    height: 20px;
-    width: 50px;
-    background-color: var(--bool-pink);
-    border: 1px dashed var(--bool-black);
-}
 
-/*#region utility*/
+/*#endregion footer*/
 
-:root{
-    --bool-background-color: #add8e6FF;
-    --bool-background-menu: #daa520FF;
-    --bool-conteiner: #00008bFF;
-    --bool-rectangle: #ee82eeFF;
-    --bool-lighter: #ffffffFF;
-    --bool-primary: #1e90ffFF;
-    --bool-secondary: #ffc0cbFF;
-    --bool-light: #d3d3d3FF;
-    --bool-green: #228b22FF;
-    --bool-black: #23272aFF;
-    --bool-red: #f08080FF;
-    --bool-blugreen: #20b2aaFF;
-    --bool-footergreen: #7fffd4FF;
-    --bool-pink: #fdb3bcFF;
-}
-
-/*#endregion utility*/
