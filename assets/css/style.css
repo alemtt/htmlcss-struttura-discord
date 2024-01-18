@@ -7,44 +7,47 @@
 /*#region header*/
 .menu{
     display: flex;
-    height: 40px;
     justify-content: center;
-    background-color: var(--bool-background-color);
     align-items: center;
+    background-color: var(--bool-background-color);
+    height: 40px;
     padding: 5px 25%;    
 }
 
 .link{
-    flex-grow: 2;
     text-align: center;
     background-color: var(--bool-background-menu);
+    flex-grow: 3;
+    border: 1px dashed var(--bool-black);
 }
 
 .logo{
     flex-grow: 1;
     background-color: var(--bool-background-menu);
+    border: 1px dashed var(--bool-black);
 }
 .login{
     flex-grow: 1;
     background-color: var(--bool-background-menu);
+    border: 1px dashed var(--bool-black);
 }
 
 .container{
     display: flex;
-    
     justify-content: center;
     align-items: center;
 }
 
 .container.upper{
     background-color: var(--bool-conteiner);
-    height: 400px;
+    height: 250px;
 }
 
 .rectangle{
-    height: 80px;
+    height: 180px;
     width: 240px;
     background-color: var(--bool-rectangle);
+    border: 1px dashed var(--bool-black);
 }
 
 
@@ -53,51 +56,54 @@
 /*#region main*/
 .container.main{
     background-color: var(--bool-lighter);
-    height: 400px;
+    height: 250px;
 }
 
 .square{
     height: 200px;
     width: 230px;
     background-color: var(--bool-primary);
+    border: 1px dashed var(--bool-black);
 }
 
 .written{
     height: 200px;
     width: 180px;
     background-color: var(--bool-secondary);
+    border: 1px dashed var(--bool-black);
 }
 
-.container.secondary{
+.container.maingrey{
     background-color: var(--bool-light);
-    height: 400px;
+    height: 250px;
 }
 
 .container.big{
     background-color: var(--bool-light);
-    height: 800px;
+    height: 500px;
 }
 
 .green{
     background-color: var(--bool-green);
     height: 400px;
     width: 400px;
-
+    border: 1px dashed var(--bool-black);
 }
 
 .container.bottom{
     background-color: var(--bool-black);
-    height: 400px;
+    height: 250px;
 }
 
 .red{
     width: 133px;
-    height: 350px;
+    height: 200px;
     background-color: var(--bool-red);
+    border: 1px dashed var(--bool-black);
 }
 
 .bottomgreen{
-    height: 350px;
+    height: 200px;
     width: 66px;
     background-color: var(--bool-blugreen);
 }
@@ -107,10 +113,10 @@
 .form{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: var(--bool-footergreen);
     height: 35px;
     width: 800px;
-    align-items: center;
 }
 .container.footer{
     background-color: var(--bool-black);
@@ -120,12 +126,14 @@
     height: 20px;
     width: 50px;
     background-color: var(--bool-pink);
+    border: 1px dashed var(--bool-black);
 }
 
 .logofooter{
     height: 20px;
     width: 50px;
     background-color: var(--bool-pink);
+    border: 1px dashed var(--bool-black);
 }
 
 /*#region utility*/
